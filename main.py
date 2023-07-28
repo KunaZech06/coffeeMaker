@@ -43,7 +43,7 @@ off = False
 while not off:
     # Get input choice from user
     userChoice = input("What would you like? (Espresso/Latte/Cappuccino): ").lower()
-
+# put this in a function
     if userChoice == 'report':
         print(f"Water: {machine_resource['ingredients']['water']}ml")
         print(f"Milk: {machine_resource['ingredients']['milk']}ml")
